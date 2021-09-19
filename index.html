@@ -147,5 +147,30 @@
         assumenda dolores deleniti expedita voluptatem quos error quisquam?
       </p>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+
+    <script>
+      let image1 = document.getElementsByClassName('parallaxImg1'),
+        image2 = document.getElementsByClassName('parallaxImg2'),
+        image3 = document.getElementsByClassName('parallaxImg3'),
+        image4 = document.getElementsByClassName('parallaxImg4');
+
+      new simpleParallax(image1, {
+        orientation: 'left',
+      });
+
+      new simpleParallax(image2, {
+        orientation: 'right',
+      });
+
+      new simpleParallax(image3, {
+        orientation: 'up',
+      });
+
+      new simpleParallax(image4, {
+        orientation: 'down',
+      });
+    </script>
   </body>
 </html>
