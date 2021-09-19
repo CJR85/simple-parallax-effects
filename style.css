@@ -6,3 +6,19 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+section {
+  padding: 100px;
+}
+
+section h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+section p {
+  line-height: 1.8em;
+}
